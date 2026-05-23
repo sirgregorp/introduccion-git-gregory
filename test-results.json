@@ -1,6 +1,6 @@
 {
   "success": false,
-  "fecha_ejecucion": "2026-05-23T23:26:05.903Z",
+  "fecha_ejecucion": "2026-05-23T23:34:21.817Z",
   "ejercicios": [
     {
       "ejercicio": 1,
@@ -65,43 +65,43 @@
     {
       "ejercicio": 6,
       "nombre": "pull-clone",
-      "estado": "parcial",
+      "estado": "aprobado",
       "tests_totales": 6,
-      "tests_aprobados": 2,
-      "tests_fallidos": 4,
+      "tests_aprobados": 6,
+      "tests_fallidos": 0,
       "puntos_posibles": 10,
-      "puntos_obtenidos": 3,
-      "porcentaje": 33,
+      "puntos_obtenidos": 10,
+      "porcentaje": 100,
       "detalles": [
         {
           "nombre": "El archivo mi-proyecto.md debe contener la actualización desde GitHub",
-          "estado": "failed",
-          "duracion_ms": 6
+          "estado": "passed",
+          "duracion_ms": 3
         },
         {
           "nombre": "El archivo sync-test.txt debe existir",
-          "estado": "failed",
-          "duracion_ms": 1
+          "estado": "passed",
+          "duracion_ms": 0
         },
         {
           "nombre": "Debe tener al menos 6 commits",
           "estado": "passed",
-          "duracion_ms": 9
+          "duracion_ms": 6
         },
         {
           "nombre": "El archivo sync-test.txt debe estar trackeado en Git",
-          "estado": "failed",
-          "duracion_ms": 8
+          "estado": "passed",
+          "duracion_ms": 7
         },
         {
           "nombre": "Debe tener commits que indiquen sincronización",
           "estado": "passed",
-          "duracion_ms": 11
+          "duracion_ms": 10
         },
         {
           "nombre": "El repositorio debe estar limpio (sin cambios pendientes)",
-          "estado": "failed",
-          "duracion_ms": 26
+          "estado": "passed",
+          "duracion_ms": 12
         }
       ]
     },
@@ -120,14 +120,14 @@
   ],
   "resumen": {
     "total_ejercicios": 7,
-    "ejercicios_completos": 0,
-    "ejercicios_parciales": 1,
+    "ejercicios_completos": 1,
+    "ejercicios_parciales": 0,
     "ejercicios_fallidos": 0,
     "total_tests": 6,
-    "tests_aprobados": 2,
-    "tests_fallidos": 4,
+    "tests_aprobados": 6,
+    "tests_fallidos": 0,
     "puntos_totales": 100,
-    "puntos_obtenidos": 3,
-    "porcentaje_final": 3
+    "puntos_obtenidos": 10,
+    "porcentaje_final": 10
   }
 }
