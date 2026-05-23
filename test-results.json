@@ -1,6 +1,6 @@
 {
   "success": false,
-  "fecha_ejecucion": "2026-05-23T23:09:55.450Z",
+  "fecha_ejecucion": "2026-05-23T23:26:05.903Z",
   "ejercicios": [
     {
       "ejercicio": 1,
@@ -53,52 +53,57 @@
     {
       "ejercicio": 5,
       "nombre": "github-push",
-      "estado": "parcial",
-      "tests_totales": 5,
-      "tests_aprobados": 4,
-      "tests_fallidos": 1,
-      "puntos_posibles": 15,
-      "puntos_obtenidos": 12,
-      "porcentaje": 80,
-      "detalles": [
-        {
-          "nombre": "El archivo AUTHORS.md debe existir",
-          "estado": "passed",
-          "duracion_ms": 4
-        },
-        {
-          "nombre": "Debe tener un remote configurado",
-          "estado": "passed",
-          "duracion_ms": 15
-        },
-        {
-          "nombre": "Debe tener al menos 5 commits",
-          "estado": "passed",
-          "duracion_ms": 11
-        },
-        {
-          "nombre": "El archivo AUTHORS.md debe estar trackeado en Git",
-          "estado": "passed",
-          "duracion_ms": 8
-        },
-        {
-          "nombre": "No debe haber cambios pendientes",
-          "estado": "failed",
-          "duracion_ms": 22
-        }
-      ]
-    },
-    {
-      "ejercicio": 6,
-      "nombre": "pull-clone",
       "estado": "no-ejecutado",
       "tests_totales": 0,
       "tests_aprobados": 0,
       "tests_fallidos": 0,
-      "puntos_posibles": 10,
+      "puntos_posibles": 15,
       "puntos_obtenidos": 0,
       "porcentaje": 0,
       "detalles": []
+    },
+    {
+      "ejercicio": 6,
+      "nombre": "pull-clone",
+      "estado": "parcial",
+      "tests_totales": 6,
+      "tests_aprobados": 2,
+      "tests_fallidos": 4,
+      "puntos_posibles": 10,
+      "puntos_obtenidos": 3,
+      "porcentaje": 33,
+      "detalles": [
+        {
+          "nombre": "El archivo mi-proyecto.md debe contener la actualización desde GitHub",
+          "estado": "failed",
+          "duracion_ms": 6
+        },
+        {
+          "nombre": "El archivo sync-test.txt debe existir",
+          "estado": "failed",
+          "duracion_ms": 1
+        },
+        {
+          "nombre": "Debe tener al menos 6 commits",
+          "estado": "passed",
+          "duracion_ms": 9
+        },
+        {
+          "nombre": "El archivo sync-test.txt debe estar trackeado en Git",
+          "estado": "failed",
+          "duracion_ms": 8
+        },
+        {
+          "nombre": "Debe tener commits que indiquen sincronización",
+          "estado": "passed",
+          "duracion_ms": 11
+        },
+        {
+          "nombre": "El repositorio debe estar limpio (sin cambios pendientes)",
+          "estado": "failed",
+          "duracion_ms": 26
+        }
+      ]
     },
     {
       "ejercicio": 7,
@@ -118,11 +123,11 @@
     "ejercicios_completos": 0,
     "ejercicios_parciales": 1,
     "ejercicios_fallidos": 0,
-    "total_tests": 5,
-    "tests_aprobados": 4,
-    "tests_fallidos": 1,
+    "total_tests": 6,
+    "tests_aprobados": 2,
+    "tests_fallidos": 4,
     "puntos_totales": 100,
-    "puntos_obtenidos": 12,
-    "porcentaje_final": 12
+    "puntos_obtenidos": 3,
+    "porcentaje_final": 3
   }
 }
