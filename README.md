@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23981154)
 # Ejercicios aprendiendo Git - GitHub Classroom
 
@@ -202,3 +203,7 @@ npm run test:coverage
 ---
 
 **¡Feliz aprendizaje con Git! 🎉**
+=======
+# classexperimentationgregory
+>>>>>>> ea6948b4a1b9b7178d0d68dcc165ec65574fd028
+# claseitla
